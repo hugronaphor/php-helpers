@@ -1,6 +1,6 @@
 {
   "name": "hugronaphor/php-helpers",
-  "description": "A collection of PHP helper functions to make PHP coding sweeter.",
+  "description": "A collection of helper functions with the aim to simplify and enhance the esthetics of PHP coding styles.",
   "license": "MIT",
   "authors": [
     {
