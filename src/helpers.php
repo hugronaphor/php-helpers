@@ -12,14 +12,10 @@ function call(callable $callback, mixed $value = NULL): mixed {
 /**
  * Catch a potential exception and return a default value.
  */
-function rescue(callable $callback, mixed $rescue = NULL, mixed $report = NULL): mixed {
+function rescue(callable $callback, mixed $rescue = NULL): mixed {
   try {
     return $callback();
   } catch (\Throwable $e) {
-    if ($report) {
-      value($report, $e);
-    }
-
     return value($rescue, $e);
   }
 }
