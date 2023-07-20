@@ -1,0 +1,26 @@
+{
+  "name": "hugronaphor/php-helpers",
+  "description": "A collection of PHP helper functions to make PHP coding sweeter.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cornel Andreev",
+      "email": "hugronaphor@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
